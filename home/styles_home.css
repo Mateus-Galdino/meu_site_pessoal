@@ -1,0 +1,116 @@
+/*
+
+    ##################################################################################################
+
+                                        Formatação desktop
+
+    ##################################################################################################
+
+*/
+
+                                        /* Barra de navegação */
+
+.meu_nome{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.nav_bar{
+    background-color: #6d706f;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    position: sticky;
+    max-height: 80px;
+    width: 100%;
+}
+
+.nav_items{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    color:white;
+    font-size: 20px;
+}
+
+.items:hover{
+    border-bottom: 3px solid white;
+    cursor: pointer;
+    transition: 0.1s ease;
+}
+
+                                        /* Apresentação */
+
+.apresentacao{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    font-family: 'PT Sans', sans-serif;
+    margin-bottom: 50px;
+
+}
+
+.foto{
+
+    height: 430px;
+    width: 330px;
+
+}
+
+.texto{
+
+    width: 50%;
+
+}
+
+.titulo{
+
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.historia{
+
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    text-align: justify;
+
+}
+
+                                            /*Footer*/
+
+.footer{
+    background-color: #6d706f;
+    height: 100px;
+    position: absolute;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    color:white;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.rotulo_footer{
+
+    list-style: none;
+    text-align: center;
+
+}
