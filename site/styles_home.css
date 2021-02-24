@@ -16,6 +16,32 @@
     margin-top: 40px;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.botao_bandeira{
+
+    background-color: transparent;
+    border: none;
+    border-radius: 30%;
+
+}
+
+.botao_bandeira:hover{
+    cursor: pointer;
+}
+
+.botao_bandeira:focus{
+    outline: none;
+    border: none;
+}
+
+.bandeira{
+    width: 40px;
+    height: 40px;
 }
 
 .nav_bar{
