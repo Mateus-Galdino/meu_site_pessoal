@@ -11,9 +11,9 @@
                                         /* Barra de navegação */
 
 .meu_nome{
-    font-size: 40px;
+    font-size: 2.5rem;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 2.5rem;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     display: flex;
@@ -40,8 +40,8 @@
 }
 
 .bandeira{
-    width: 40px;
-    height: 40px;
+    width: 2.5rem;
+    height: 2.5rem;
 }
 
 .nav_bar{
@@ -51,11 +51,11 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 2.5rem;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     position: sticky;
-    max-height: 80px;
+    max-height: 5rem;
     width: 100%;
 }
 
@@ -66,7 +66,7 @@
     align-items: center;
     width: 80%;
     color:white;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .items:hover{
@@ -83,16 +83,16 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 1.875rem;
     font-family: 'PT Sans', sans-serif;
-    margin-bottom: 50px;
+    margin-bottom: 3.125rem;
 
 }
 
 .foto{
 
-    height: 430px;
-    width: 330px;
+    height: 400px;
+    width: 300px;
 
 }
 
@@ -104,7 +104,7 @@
 
 .titulo{
 
-    font-size: 30px;
+    font-size: 1.875rem;
     text-align: center;
     font-weight: bold;
 
@@ -113,7 +113,7 @@
 .historia{
 
     font-family: 'PT Sans', sans-serif;
-    font-size: 20px;
+    font-size: 1.25rem;
     text-align: center;
     text-align: justify;
 
@@ -123,7 +123,7 @@
 
 .footer{
     background-color: #6d706f;
-    height: 100px;
+    height: 6.25rem;
     position: absolute;
     width: 100%;
     font-family: 'Poppins', sans-serif;
