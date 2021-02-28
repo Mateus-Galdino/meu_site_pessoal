@@ -9,7 +9,35 @@
 
 .div_hist{
 
-    margin-top: 1.875rem;
-    margin-bottom: 3.125rem;
+    margin-top: 50px;
+    margin-bottom: 90px;
     
 }
+
+.minha_hist{
+
+    font-family: 'PT Sans';
+
+}
+
+.titulo_hist{
+
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.historia{
+
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+.span_hist{
+
+    font-weight: bold;
+
+}
+
