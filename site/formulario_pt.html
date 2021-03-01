@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="styles_home.css">
+    <link rel="stylesheet" href="formulario.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;600&family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    <title>Mateus Galdino Cardoso Personal Website</title>
+</head>
+<body>
+
+    <div class = "meu_nome">
+       <p> Mateus Galdino Cardoso </p>
+       <div class = "bandeiras">
+            <button class="botao_bandeira"><a href="formulario_pt.html"><img src= "bandeiras/brazil.png" alt="" class="bandeira"></a></button>
+            <button class="botao_bandeira"><a href="formulario_eng.html"><img src="bandeiras/gra_bretanha_flag.png" alt="" class="bandeira"></a></button>
+            <button class="botao_bandeira"><a href="formulario_esp.html"><img src="bandeiras/spain_flag.png" alt="" class="bandeira"></a></button>
+            <button class="botao_bandeira"><a href="formulario_fr.html"><img src="bandeiras/france.png" alt="" class="bandeira"></a></button>
+       </div>
+    </div>
+
+    <nav class = "nav_bar" >
+
+        <ul class = "nav_items">
+            <li class = "items">Sobre mim</li>
+            <li class = "items">CV e documentos importantes</li>
+            <li class = "items">Interesses profissionais</li>
+            <li class = "items">Contate - me!</li>
+        </ul>
+
+    </nav>
+
+    <div class="espaco_form">
+
+        <p class="titulo_form">Por favor, envie aqui sua mensagem!</p>
+
+        <form action="https://formspree.io/f/xknplryr" method="POST" id="my-form">
+
+            <div class="form_group">
+
+                <label for="firstName">Primeiro nome</label>
+                <input type="text" class="firstName" name="firstName">
+
+            </div>
+
+            <div class="form_group">
+
+                <label for="lastName">Último Nome</label>
+                <input type="text" class="lastName" name="lastName">
+
+            </div>
+
+            <div class="form_group">
+
+                <label for="email">Email</label>
+                <input type="email" name="email" class="email">
+
+            </div>
+
+            <div class="form_group">
+
+                <label for="assunto">Assunto</label>
+                <input type="assunto" name="assunto" class="assunto">
+            
+            </div>
+
+            <div class="form_group">
+
+                <label for="message">Mensagem</label>
+                <textarea name="message" class="message" cols="30" rows="10"></textarea>
+
+            </div>
+
+            <button type="submit" class="botao_submit">Enviar mensagem</button>
+
+        </form>
+
+        <div id="status"></div>
+
+    </div>
+
+    <footer class= "footer">
+
+        <ul class = "rotulo_footer">Telefone para contato:
+
+            <li class="item_footer">(11) 94964 - 5830</li>
+
+        </ul>
+
+        <ul class="rotulo_footer"> Email para contato:
+
+            <li class="item_footer">mateusgaldino290@gmail.com</li>
+
+        </ul>
+
+        <ul class="rotulo_footer"> Site desenvolvido por:
+
+            <li class="item_footer">Mateus Galdino Cardoso</li>
+
+        </ul>
+
+    </footer>
+
+    <script src="formulario.js"></script>
+
+</body>
+</html>
