@@ -1,0 +1,93 @@
+.cv_box{
+    font-family: 'PT Sans';
+}
+
+.titulo_cv{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 40px 0px 0px 0px;
+}
+
+.para_pdf{
+
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 60px;
+    text-align: center;
+
+}
+
+a,a:focus,a:active{
+    text-decoration: underline;
+    color: black;
+}
+
+a:hover{
+    cursor: pointer;
+    color: grey;
+}
+
+.para_cv{
+
+   text-align: center;
+   font-weight: bold;
+   font-size: 30px;
+   margin: 30px 0px 30px 10px;
+    
+}
+
+.cont_cv_exp{
+
+    text-align: justify;
+    font-size: 24px;
+    margin: 20px 30px 60px 50px;
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+
+.cont_cv{
+
+    text-align: justify;
+    font-size: 20px;
+    margin: 20px 30px 60px 30px;
+
+}
+
+.lista_cv{
+    font-size: 20px;
+    margin: 40px 0px 60px 30px;
+}
+
+.sub_titulo_cv{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 30px 0px 30px 100px;
+}
+
+.sub_titulo_cv_hab{
+    text-decoration: underline;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 30px 0px 30px 100px;
+}
+
+.para_pdf_exp{
+
+    font-size: 20px;
+
+}
+
+.links_pdf_pesquisa{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+
+    
+

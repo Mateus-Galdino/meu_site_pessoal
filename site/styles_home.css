@@ -69,10 +69,16 @@
     font-size: 1.25rem;
 }
 
+.items{
+    color: white;
+    text-decoration: none;
+}
+
 .items:hover{
     border-bottom: 3px solid white;
     cursor: pointer;
     transition: 0.1s ease;
+    color: white;
 }
 
                                         /* Apresentação */
